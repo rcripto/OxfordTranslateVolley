@@ -11,10 +11,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite a palavra aqui"
+            android:textSize="24dp"
             android:inputType="text"/>
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="24dp"
             android:text="Idioma original:"/>
     <Spinner
             android:id="@+id/idiomaOrigemSp"
@@ -23,6 +25,7 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="24dp"
             android:text="Idioma destino:"/>
     <Spinner
             android:id="@+id/idiomaDestinoSp"
@@ -32,9 +35,12 @@
             android:id="@+id/traduzirBt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="24dp"
             android:text="Traduzir"/>
     <TextView
             android:id="@+id/traduzidoTv"
             android:layout_width="match_parent"
+            android:textSize="36dp"
+            android:textColor="@color/navy"
             android:layout_height="wrap_content"/>
 </LinearLayout>
